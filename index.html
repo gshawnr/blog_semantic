@@ -8,21 +8,25 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css" />
 
+  <link rel="stylesheet" href="./styles.css" />
+
   <title>Semantic UI Cheatsheet</title>
 </head>
 
 <body>
-  <div class="ui container">
 
-    <!-- containers -->
-    <div class="ui container" style="border: solid; height: 100px;">
-      <h1 class="ui header">container</h1>
-    </div>
-    <div class="ui fluid container" style="border: solid; height: 100px;">
-      <h1 class="ui header">fluid container </h1>
-    </div>
-    <br><br>
-    <hr>
+  <!-- containers -->
+  <div class="ui fluid container" style="border: solid; height: 100px;">
+    <h1 class="ui header">fluid container </h1>
+  </div>
+  <br>
+  <div class="ui container" style="border: solid; height: 100px;">
+    <h1 class="ui header">container</h1>
+  </div>
+  <br>
+  <hr>
+  <br>
+  <div class="ui container">
     <!-- headers -->
     <h1 class="ui tiny header">tiny header</h1>
     <h1 class="ui small header">small header</h1>
@@ -89,7 +93,42 @@
     <br><br>
     <hr>
     <br><br>
+    <h2 class="ui medium header">Icons</h2>
+    <i class="thumbs down icon"></i>
+    <i class="left arrow icon"></i>
+    <br><br>
+    <hr>
+    <br>
+    <h2 class="ui medium header">Grid: better to use CSS grid</h2>
+    <br>
+    <div class="ui grid" style="justify-content: center;">
+      <div class="three wide column" style="background-color: red; padding: 2%;">
+        <p style="background-color: blue;">test</p>
+      </div>
+      <div class="three wide column" style="background-color: red; padding: 2%;">
+        <p style="background-color: blue;">test</p>
+      </div>
+      <div class="three wide column" style="background-color: red; padding: 2%;">
+        <p style="background-color: blue;">test</p>
+      </div>
+      <div class="three wide column" style="background-color: red; padding: 2%;">
+        <p style="background-color: blue;">test</p>
+      </div>
+      <div class="three wide column" style="background-color: red; padding: 2%;">
+        <p style="background-color: blue;">test</p>
+      </div>
+    </div>
+    <br><br>
+    <h2 class="ui medium header">CSS GRID</h2>
+    <div id="grid">
+      <div id="item1"></div>
+      <div id="item2"></div>
+      <div id="item3"></div>
+    </div>
+    <hr>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,16 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+#grid {
+  height: 100px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 33%) 13%;
+}
+
+#grid div {
+  background-color: lime;
+}
